@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Actividad - Bootstrap - Unidad 1</title>
+</head>
+<body>
+
+<h1> Actividad Bootstrap - Unidad 2</h1>
+<h2> Formulario </h2>
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-8 bg-light">
+            <form class="p-3">
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Nombre de pila</label>
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputSurname">Apellido</label>
+                        <input type="text" class="form-control" id="inputSurname">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputUsername">Nombre de Usuario</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="basic-addon1">@</span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Nombre de usuario" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                    <label for="inputEmail">Correo electrónico <span class="text-muted">(opcional)</span></label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputTalkTo">Habla a </label>
+                        <input type="text" class="form-control" id="inputTalkTo" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Dirección 2  <span class="text-muted">(opcional)</span></label>
+                        <input type="email" class="form-control" id="inputAddress" placeholder="Apartmento o suite">
+                    </div>
+                    <div class="form-row justify-content-around">
+                    <div class="form-group col-md-5">
+                        <label for="inputCountry">País</label>
+                        <select id="inputCountry" class="form-control custom-select">
+                            <option selected>Escoger...</option>
+                            <option>...</option>
+                            </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputState">Estado</label>
+                        <select id="inputState" class="form-control custom-select">
+                        <option selected>Escoger...</option>
+                        <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputCP">C.P</label>
+                        <input type="text" class="form-control" id="inputCP">
+                    </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="facturacionCheck">
+                            <label class="form-check-label" for="facturacionCheck">
+                            La dirección de envío es la misma que mi dirección de facturación
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="saveInfoCheck">
+                            <label class="form-check-label" for="saveInfoCheck">
+                            Guarde esta información para la próxima vez
+                            </label>
+                        </div>
+                        </div>
+                    <hr>
+            </form>
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- Scripts Bootstrap -->    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>    
+</body>
+</html>
